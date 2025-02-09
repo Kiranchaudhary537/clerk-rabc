@@ -1,0 +1,6 @@
+{
+  "watch": ["src/**/*", "scripts/**/*"],
+  "ext": "ts,js",
+  "ignore": ["**/*.json", "node_modules/**/*"],
+  "exec": "NODE_ENV=staging ts-node --transpile-only ./index.ts"
+}
